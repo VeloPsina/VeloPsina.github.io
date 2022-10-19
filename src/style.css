@@ -74,7 +74,7 @@ nav{
     word-spacing: 4px;
     border-bottom: 0.5rem solid;
     border-radius: 5px;
-    border-color: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border-color: #f69ec4;
     border-style: solid;
     margin: 90px 800px 0px 800px;
     }
@@ -89,56 +89,319 @@ nav{
 .bichok{
     text-align: center;
     padding-top: 100px;
+    width: 900px;
+    margin: 0 auto;
     }
 .skachat p{
-    text-align: center;
+    width: 900px;
+    margin: 0px 600px auto;
+    
+    text-align: left;
     font-size: 28px;
     word-spacing: 2px;
     font-family: serif;
 }
 .skachat form{
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     border: 2px solid #787f8b;
     border-radius: 10px;
-    border-color: #787f8b;
+    border: #787f8b;
     link: #787f8b;
     background: none;
     margin: 38px 850px 0px 850px;
 }    
 
-
-.pic{
-    изображение не появляется
-    background: url(img/IMG_6096.jpg) center/no-repeat;
-    width: 100%;
-    height: calc (100% - 500px);
-}
-
 .skills{
+    
+    background: url(img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg) center/cover no-repeat;
     width: 1920px;
-    margin-top: 202px;
-}
-.skills h2{
     text-align: center;
-    font-size: 50px;
-    font-family: sans-serif;
+    height: 70%;
+    margin-top: 180px;
 }
 
-.skills hr{
-    color: #000;
-    полосы снова нет
+.skills_container{
+    width: 920px;
+    margin: 0 auto;
+}
+.skills_container h2{
+    text-align: center;
+    width: 96;
+    font-size: 60px;
+    margin: 10px auto;
+    padding-bottom: 14px;
+    padding-top: 60px;
+}
+.skills_container hr{
+    height: 2px;
+    background: orange;
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 180px;
+    margin-left: 330px;
 }
 
 .item {
-    width: 100%;
     float: left;
-    margin-right: 12px;
-    margin: 0 auto;
-    width: 300px;  
+    width: 230px;
+    font-weight: 400;
+    font-size: 18px;
     text-align: center;
-    margin-top: 60px;
+    word-spacing: 3px;
 }
 .clear{
     clear: left;
+}
+
+.keys{
+    width: 2000px;
+    
+}
+.keys h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.keys img{
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 965px auto;
+    
+}
+.keys hr{
+    height: 2px;
+    background: orange;
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 180px;
+    margin-left: 330px;
+}
+.tex{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.im img{
+    margin-top: 10px;
+    text-align: center;
+    margin: 0px 400px auto;
+    width: 30%%;
+    
+}
+.side_contacts{
+    margin: auto;
+    float: inherit;
+}
+.side_contacts h3{
+    font-size: 18px;
+    margin: 0px 380px auto;
+    text-align: left;
+    padding-top: 40px;
+    clear: left;
+}
+.side_contacts p{
+    font-size: 15px;
+    text-align: left;
+    margin: 0px 380px auto;
+    clear: left;
+}
+.project_name{
+    height: 100px;
+    height: 300px;
+    text-align: left;
+}
+.project_name h3{
+    margin: 0px 680px auto;
+    font-size: 18px;
+}
+.project_name p{
+    margin: 5px 680px auto;
+    font-size: 15px;
+}
+.project_name a{
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    background: #63b5ae;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.colculator h2{
+       text-align: center;
+    width: 358px;
+    font-size: 43px;
+    margin: 0px auto 50px;
+}
+.calculator_inner h3{
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.mySelect{
+    display: block;
+    width: 890px;
+    height: 54px;
+    background: #eeeeee;
+    padding-left: 24px;
+    font-size: 16px;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    background:  url(../img/select.png) 98% 54%/auto no-repeat, #eee;
+}
+.days, .price{
+    margin-bottom: 18px;
+    font-size: 21px; 
+}
+
+.calculator_footer .text{
+    float: left;
+}
+
+.calculator_footer .digit{
+    font-size: 29px;
+    float: right;
+}
+
+.calculator_container{
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 74px;
+}
+.calculator_inner hr{
+    height: 2px;
+    border: none;
+    background: #eee;
+    width: 100%;
+    margin: 0 auto 24px;
+}
+
+.calculator_inner{
+    width: 890px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.colculator select{
+    margin-bottom: 44px;
+}
+
+.stat{
+    width: 1920px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background: url(img/%D1%84%D0%BE%D0%BD.png);
+}
+.stat h2{
+    width: 600px;
+    height: 100px;
+    padding-top: 87px;
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    
+
+}
+.stat img{
+    text-align: center;
+    margin: 0px 930px auto;
+    padding-bottom: 20px;
+}
+.stat_containier{
+    display: inline-block;
+    padding: 30px;
+    width: 1920px;
+    text-align: center;
+     margin: 0 auto;
+    float: left;  
+}
+.statistic_item h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.statistic_item p{
+    font-size: 15px;
+    word-spacing: 1.5px;
+}
+.feedback{
+    width: 1920px;
+    text-align: center;
+}
+.feedback img{
+    margin-bottom: 36px;
+}
+.feedback p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+}
+.feedback input{
+    margin-top: 10px;
+}
+
+.contacts{
+    width: 1920px;
+    margin-top: 100px;
+}
+.cont h2{
+    font-size: 40px;
+    height: 30px;
+}
+.cont img{
+    text-align: center;
+    margin: -25px 930px auto;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+.cont p{
+    text-align: center;
+    font-size: 15px;
+}
+.co{
+    width: 1920px;
+    float: left;
+    text-align: center;
+}
+.mail p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.con{
+    width: 1920px;
+    margin-top: 100px;
+    background: url(img/%D1%81%D0%B8%D0%BD%D0%B8%D0%B9_%D1%84%D0%BE%D0%BD.png);
+}
+.co h2{
+    font-size: 30px;
+    color: white;
+}
+contact_inputs{
+    display: block;
+    width: 352px;
+    float: left;
+    height: 34px;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    background: rgba(210, 214, 220, 0.93);
+    font-size: 30px; 
+}
+. con textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    background: rgba(220, 224, 230, 0.93);
+    font-size: 16px;
+    margin-bottom: 30px;
 }
