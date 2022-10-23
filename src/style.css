@@ -332,6 +332,12 @@ nav{
     font-size: 15px;
     word-spacing: 1.5px;
 }
+.statistic_item{
+    float: left;   
+    display: inline-block;
+    width: 1920px;
+}
+
 .feedback{
     width: 1920px;
     text-align: center;
@@ -343,6 +349,7 @@ nav{
     font-size: 15px;
     font-family: sans-serif;
     margin-bottom: 4px;
+    
 }
 .feedback input{
     margin-top: 10px;
@@ -351,10 +358,12 @@ nav{
 .contacts{
     width: 1920px;
     margin-top: 100px;
+    background: url(img/%D1%81%D0%B8%D0%BD%D0%B8%D0%B9_%D1%84%D0%BE%D0%BD.png);
 }
 .cont h2{
     font-size: 40px;
     height: 30px;
+    color: white;
 }
 .cont img{
     text-align: center;
@@ -364,6 +373,7 @@ nav{
 }
 .cont p{
     text-align: center;
+    color: white;
     font-size: 15px;
 }
 .co{
@@ -373,35 +383,58 @@ nav{
 }
 .mail p{
     text-align: center;
+    color: white;
     font-size: 20px;
 }
 
 .con{
     width: 1920px;
     margin-top: 100px;
-    background: url(img/%D1%81%D0%B8%D0%BD%D0%B8%D0%B9_%D1%84%D0%BE%D0%BD.png);
+  
 }
-.co h2{
+.con h2{
     font-size: 30px;
     color: white;
 }
-contact_inputs{
-    display: block;
+.contact_inputs{
+display: block;
+    text-align: center;
+    margin: 0px auto;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    height: 46px;
+    width: 800px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 10px;
+
+    
+}
+.contact_inputs input{
+       display: block;
     width: 352px;
     float: left;
     height: 34px;
     padding-left: 14px;
     margin-bottom: 14px;
     background: rgba(210, 214, 220, 0.93);
-    font-size: 30px; 
+    font-size: 16px; 
 }
-. con textarea{
+
+.clear{
+    clear: left;
+}
+.con textarea{
     display: block;
-    width: 100%;
+    width:800px;
     resize: none;
-    padding-top: 10px;
+    margin: 0 auto;
     padding-left: 15px;
     background: rgba(220, 224, 230, 0.93);
     font-size: 16px;
-    margin-bottom: 30px;
+}
+.contacts_inputs secondInput{
+    float: right;
+    margin-right: 50px;
 }
